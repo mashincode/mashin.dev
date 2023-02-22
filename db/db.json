@@ -2,32 +2,94 @@
   "work": [
     {
       "title": "Foodlez",
-      "description": "Django based service for finding the best recipes on the Internet, buildin custom scrapper, that works with tones of websites! Had a lot of fun working on that!",
+      "description": "Django based service for finding the best recipes on the Internet, buildin custom scrapper, that works with tones of websites!",
       "img": "products/foodlez.png",
       "gif": "products/foodlez.gif"
     },
     {
       "title": "Vilnyy",
-      "description": "Coliving Network at Ukraine. I managed to implement website itself, a custom CRM for managing colivers and finances, payment integrations and telegram notifications, forms creation (something like google forms) and a kanban board for managing applications",
+      "description": "Website + custom CRM with kanban board, payment integrations, telegram notifications and forms creation (something like google forms) for largest coliving network at Europe",
       "img": "products/vilnyy.png",
       "gif": "products/vilnyy.gif"
+    },
+    {
+      "title": "TrueLove",
+      "description": "Django based eCommerce WebSite with custom CRM & Taxi service integration for the largest flowers company at country",
+      "img": "products/truelove.png",
+      "gif": "products/truelove.gif"
+    }, 
+
+    {
+      "title": "Elves&Errands",
+      "description": "Freelance platform with custom GEOLocation plugin, payments integration and multiply user types",
+      "img": "products/eae.png",
+      "gif": "products/eae.gif"
     }
   ],
 
   "projects": [
     {
-      "title": "Blabla",
-      "description": "Django based service for finding the best recipes on the Internet, buildin custom scrapper, that works with tones of websites! Had a lot of fun working on that!",
-      "img": "products/foodlez.png",
-      "gif": "products/foodlez.gif"
+      "title": "Meo",
+      "description": "Geolocation faker, my very first Manifest V3 Chrome browser extension",
+      "img": "products/meo.png",
+      "gif": "products/meo.gif"
     }
   ], 
 
   "feedback": [
     {
-      "title": "test",
-      "text": "test",
-      "date": "12.03.2000"
+      "title": "Add the attachment capability to Measurement",
+      "text": "Very efficient, knowledgeable and helpful",
+      "date": "Jan 9, 2023 - Jan 10, 2023 "
+    },
+
+    {
+      "title": "Add workflow to Django-phython application",
+      "text": "Artem did an excellent job in understanding the requirements and provided me exactly what was required. I would definitely recommend working with Artem!",
+      "date": "Jan 9, 2023 "
+    },
+
+    {
+      "title": "Django proof-of-concept site.",
+      "text": "Artyom completed work exceeding expectations. He not only build Django site as required but he also advised me about number of ideas and best practices. He is Django, Python and JavaScript expert. He was the best freelancer I have ever worked with. He is competent, knowledgable, helpful. He was always ahead of schedule.",
+      "date": "Nov 14, 2022 - Nov 22, 2022"
+    },
+
+    {
+      "title": "Telegram Group Manager Chat Moderation & Notification Bot",
+      "text": "Rare gem. I'm telling you, freelancers like Artyom are hard to find. Honest man and Good coder. His English is awesome, he always comes with solutions, he replies fast, he doesn't lie, he respected the terms of our deal and did not ask for more money *like 9/10 freelancers do. Thank you so much Artyom!",
+      "date": "Mar 9, 2022 - May 1, 2022"
+    },
+
+    {
+      "title": "Develop a telegram bot for popular crypto website",
+      "text": "",
+      "date": "Aug 8, 2021 - Dec 10, 2021"
+    },
+
+    {
+      "title": "Change Python scraper from JSON to DB",
+      "text": "Job was completed successfully. I liked working with Artyom and might work again in the future",
+      "date": "Oct 8, 2021 - Oct 10, 2021"
+    },
+
+    {
+      "title": "Create a VERY SPECIFIC Telegram Bot",
+      "text":"Excellent work, deep knowledge of the subject and excellent communication. Highly recommend!",
+      "date": "May 7, 2021 - Jul 3, 2021 "
+    }, 
+
+    {
+      "title": "Python (Django) Web Developer needed to help with Appoitment booking application",
+      "text": "",
+      "date": "May 6, 2021 - Jun 14, 2021 "
+    }, 
+
+    {
+      "title": "Apple script automation",
+      "text": "Great communication, quick results, fair price. Thanks for the great work. Would hire again"      ,
+      "date": "Apr 30, 2021 - May 9, 2021"
     }
+
   ]
 }

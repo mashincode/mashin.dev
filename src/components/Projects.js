@@ -3,7 +3,7 @@ import useFetch from "../utils/useFetch";
 import Cards from "./Cards";
 
 const Projects = () => {
-  const { error, isPending, data} = useFetch('http://localhost:8000/projects')
+  const { error, isPending, data} = useFetch(process.env.REACT_APP_API_URL+"projects")
 
 
   Scroller();

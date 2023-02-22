@@ -4,6 +4,15 @@ volumes:
   static:
   media:
 services:
+  python: &python
+    build:
+      context: .
+      dockerfile: docker/python/Dockerfile
+    volumes:
+      - .:/code
+    ports:
+      - 8000:8000
+    command: uvicorn tasks:app --port 8000 --reload
   front: &front
     container_name: front
     build:   
@@ -33,6 +42,7 @@ services:
       - 443:443
     depends_on:
       - front
+      - python
     environment:
       - NGINX_HOST=${SITE_NAME}
     command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"

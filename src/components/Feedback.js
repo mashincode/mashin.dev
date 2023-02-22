@@ -3,7 +3,7 @@ import useFetch from "../utils/useFetch";
 import FeedBackCards from "./FeedBackCards";
 
 const Feedback = () => {
-  const { error, isPending, data} = useFetch('http://localhost:8000/feedback')
+  const { error, isPending, data} = useFetch(process.env.REACT_APP_API_URL+"feedback")
 
   Scroller();
   
