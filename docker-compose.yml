@@ -12,7 +12,7 @@ services:
       - .:/code
     ports:
       - 8000:8000
-    command: uvicorn tasks:app --port 8000 --reload
+    command: uvicorn api:app  --host 0.0.0.0 --port 8000 --reload
   front: &front
     container_name: front
     build:   
