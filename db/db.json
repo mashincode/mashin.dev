@@ -1,0 +1,33 @@
+{
+  "work": [
+    {
+      "title": "Foodlez",
+      "description": "Django based service for finding the best recipes on the Internet, buildin custom scrapper, that works with tones of websites! Had a lot of fun working on that!",
+      "img": "products/foodlez.png",
+      "gif": "products/foodlez.gif"
+    },
+    {
+      "title": "Vilnyy",
+      "description": "Coliving Network at Ukraine. I managed to implement website itself, a custom CRM for managing colivers and finances, payment integrations and telegram notifications, forms creation (something like google forms) and a kanban board for managing applications",
+      "img": "products/vilnyy.png",
+      "gif": "products/vilnyy.gif"
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Blabla",
+      "description": "Django based service for finding the best recipes on the Internet, buildin custom scrapper, that works with tones of websites! Had a lot of fun working on that!",
+      "img": "products/foodlez.png",
+      "gif": "products/foodlez.gif"
+    }
+  ], 
+
+  "feedback": [
+    {
+      "title": "test",
+      "text": "test",
+      "date": "12.03.2000"
+    }
+  ]
+}
