@@ -4,7 +4,7 @@ import { NavLink as Link } from 'react-router-dom';
 const Menu = () => {
 
   const LinkClass = (link) => {
-    if (window.location.pathname == "/" || window.location.pathname == "/work"){
+    if (window.location.pathname === "/" || window.location.pathname === "/work"){
       return "link active"
     } else {
         return "link"

@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 const Scroller = () => {
   useEffect(() => {
-    if (window.location.pathname != "/"){
+    if (String(window.location.pathname) !== "/"){
 
       document.getElementById('menu').scrollIntoView({behavior: "smooth", block: "start", inline: "start"});
 
