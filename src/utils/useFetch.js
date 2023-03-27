@@ -16,13 +16,16 @@ const useFetch = (url) => {
       } 
       return res.json();
     })
-    .then(data => {
-      setIsPending(false);
-      setData(data);
+    .then((data) => {
+      // await setTimeout(()=>setIsPending(false), 1000);
+      // await setTimeout(()=>setData(data), 1000);
+      // await setError(null);
+      setIsPending(false)
+      setData(data)
       setError(null);
     })
     .catch(err => {
-      if (err.name != 'AbortError') {
+      if (String(err.name) !== 'AbortError') {
           // auto catches network / connection error
           setIsPending(false);
           setError(err.message);

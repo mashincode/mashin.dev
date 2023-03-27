@@ -26,7 +26,7 @@ const MainTop = () => {
         </div>
 
         <div id="main-right"  className="col-lg-6 col-sm-12">
-          <img id="main-right-image" height="540" src={main_right_me}/>
+          <img id="main-right-image" height="540" src={main_right_me} alt=""/>
         </div>
       </div>   
     </div>

@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <div id="main" className="main container-fluid justify-content-center">
       { error && <div>{ error }</div> }
-      { isPending && <div>Loading...</div> }
+      { isPending && <div className="loading_box">Loading...</div> }
       { data && <Cards data={data} /> }
     </div>
   );
